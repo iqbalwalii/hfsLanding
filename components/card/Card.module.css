@@ -1,0 +1,95 @@
+.main {
+  border: 1px solid #00000025;
+  border-radius: 10%;
+  width: 200px;
+  position: relative;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  margin: 1rem 0rem;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+  background: #ccc;
+}
+
+.main a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.main h3 {
+  text-align: center;
+}
+
+.main:hover {
+  -webkit-box-shadow: 3px 5px #ff058f96;
+          box-shadow: 3px 5px #ff058f96;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.main h5 {
+  padding: .5rem !important;
+}
+
+.main h6 {
+  padding: 0rem 1rem;
+  font-weight: 700;
+}
+
+.main p {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.main .backdrop {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #1C5D8C;
+  height: 140px;
+  width: 170px;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 10%;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: 160px;
+    padding: 2rem 0 0 0;
+  }
+  .main .backdrop {
+    height: 150px;
+    width: 140px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    width: 140px;
+    padding: 2rem 0 0 0;
+  }
+  .main .backdrop {
+    height: 140px;
+    width: 100px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 10%;
+  }
+}
+/*# sourceMappingURL=Card.module.css.map */

@@ -1,0 +1,61 @@
+.main
+    border: 1px solid #00000025
+    border-radius: 10%
+    width: 200px
+    position: relative
+    transition: all .3s linear
+    margin: 1rem 0rem
+    cursor: pointer
+    font-family: 'Roboto Condensed', sans-serif
+    padding: 1rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-left: 1rem
+    background: #ccc
+    & a
+        text-decoration: none
+        color: #212121
+    & h3
+        text-align: center
+    &:hover
+        box-shadow: 3px 5px #ff058f96
+        transform: scale(1.01)
+    & h5
+        padding: .5rem !important
+    & h6
+        padding: 0rem 1rem
+        font-weight: 700
+    & p
+        padding: 1rem
+        padding-top: 0
+    & .backdrop
+        position: absolute
+        right: 0
+        top: 0
+        background: #1C5D8C
+        height: 140px
+        width: 170px
+        border-bottom-left-radius: 50%
+        border-top-right-radius: 10%
+@media screen and (max-width: 480px)
+    .main
+        width: 160px
+        & p
+        padding: 2rem 0 0 0
+        & .backdrop
+            height: 150px
+            width: 140px
+            border-bottom-left-radius: 50%
+            border-top-right-radius: 10%
+@media screen and (max-width: 320px)
+    .main
+        width: 140px
+        & p
+        padding: 2rem 0 0 0
+        & .backdrop
+            height: 140px
+            width: 100px
+            border-bottom-left-radius: 50%
+            border-top-right-radius: 10%
