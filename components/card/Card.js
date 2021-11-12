@@ -55,7 +55,7 @@ export default function App() {
               alt="product image"
               className="productImg"
             />
-            <h5>NIKE DUNK LOW PREMIUM GS 'HALLOWEEN'</h5>
+            <h5>NIKE DUNK LOW PREMIUM GS &apos;HALLOWEEN&apos;</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -67,7 +67,7 @@ export default function App() {
               alt="product image"
               className="productImg"
             />
-            <h5>NIKE DUNK LOW SB 'WHEAT DARK PURPLE'</h5>
+            <h5>NIKE DUNK LOW SB &apos;WHEAT DARK PURPLE&apos;</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -79,7 +79,7 @@ export default function App() {
               alt="product image"
               className="productImg"
             />
-            <h5>AIR JORDAN 1 RETRO HIGH OG GS 'POLLEN'</h5>
+            <h5>AIR JORDAN 1 RETRO HIGH OG GS &apos;POLLEN&apos;</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -91,7 +91,7 @@ export default function App() {
               alt="product image"
               className="productImg"
             />
-            <h5>ADIDAS YEEZY BOOST 700 'WASH ORANGE'</h5>
+            <h5>ADIDAS YEEZY BOOST 700 &apos;WASH ORANGE&apos;</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -103,7 +103,7 @@ export default function App() {
               alt="product image"
               className="productImg"
             />
-            <h5>AIR JORDAN 4 RETRO GS 'LIGHTNING' 2021</h5>
+            <h5>AIR JORDAN 4 RETRO GS &apos;LIGHTNING&apos; 2021</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -115,7 +115,7 @@ export default function App() {
               alt="product image"
               className="productImg"
             />
-            <h5>AIR JORDAN 3 RETRO GS 'PINE GREEN'</h5>
+            <h5>AIR JORDAN 3 RETRO GS &apos;PINE GREEN&apos;</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -127,7 +127,7 @@ export default function App() {
               alt="product image"
               className="productImg"
             />
-            <h5>SUPREME X NIKE AIR FORCE 1 LOW SP 'FLAX'</h5>
+            <h5>SUPREME X NIKE AIR FORCE 1 LOW SP &apos;FLAX&apos;</h5>
           </div>
         </SwiperSlide>
       </Swiper>
